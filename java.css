@@ -1,0 +1,104 @@
+body{
+    background-color: #0E0837;
+}
+.tnt{
+    opacity:0;
+}
+.tnt:hover{
+    transition: all 2s;
+    opacity: 1;
+}
+.txt{
+    font-size: 25px;
+}
+.f-size{
+font-size: 35px;
+}
+.back{
+    background-color: #100726;
+    color: white;
+}
+.card1:hover img{
+    transition: all 1s;
+transform: translate(120px,-120px);
+border-radius: 200px;
+}
+.card1::after{
+     transition: all 1s;
+transform: translate(-120px,120px);
+border-radius: 200px;
+}
+.card1:hover p{
+    transition: all 1s;
+transform: translateY(-70px);
+}
+.but:hover{
+    transition: all 0.5s;
+transform:translateY(-10px);
+}
+.dumy{
+    position: relative;
+}
+.dumy img{
+    position: relative;
+}
+.dumy .bi{
+    position:absolute;
+    top:50%;
+left: 50%;
+}
+.sound{
+    background: linear-gradient(to left purple,pink)!important;
+}
+.list2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.list2 p, h1, h2{
+    width: 70%;
+
+}
+.list2 .icon{
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+gap:1rem;
+}
+
+
+
+@media only screen and (max-width:600px){
+    .main1 p{
+        text-align:center !important;
+    }
+    .but{
+        
+       text-align: center;
+    }
+    .tnt{
+        opacity: 1;
+    }
+    .back{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap:0.5rem;
+    }
+.pic img{
+    width: 100%;
+    height: 100%;
+}
+.pic p{
+    width: 100% !important;
+}
+.list5 p{
+    width: 100%;
+}
+.list5 {
+    width: 100%!important;
+}
+.list2{
+    text-align: center;
+}
+}
